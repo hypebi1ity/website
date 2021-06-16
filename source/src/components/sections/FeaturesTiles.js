@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Companies spend $12k per focus group to test content, now creators can too at a fraction of the cost!',
-    paragraph: "Creators are becoming the main driver for online entertainment; however, they do not have the same level of insight generation or content feedback as companies. Companies spend more than $3B+ annually to gauge content success and gain feedback. With Hypebility, creators no longer need anywhere near that level of capital to get the same level of insight!"
+    title: 'Companies spend up to $12,000 testing their content. Now you can too and at a fraction of the cost!',
+    paragraph: "Creators are now the main driver for online entertainment; however, they do not have access to the same level of consumer insight and content feedback as companies. Hypebility makes it feasible for creators to adjust and better their content using consumer analytics and actionable feedback in a quick and affordable way!"
   };
 
   return (
@@ -71,10 +71,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Targeted Reviewing
+                    Vetted and Relevant Reviewers
                     </h4>
                   <p className="m-0 text-sm">
-                    Have your content reviewed by individuals who are interested in the categories you create in and use the same platforms you create on.                    </p>
+                    Reviewers will be paired with creator content based on their platform and category viewing habits. Reviewers are also vetted to ensure feedback is genuine and actionable.                     </p>
                 </div>
               </div>
             </div>
@@ -114,10 +114,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Affordable & Flexible
+                    Affordable and Flexible Options
                     </h4>
                   <p className="m-0 text-sm">
-                    Our price points ensure that Hypebility is accessible to all creators! Even so, reviewers get paid to review content so you can pay for Hypebility with Hypebility!
+                    Our price points are flexible and can meet the budget of any sized creator and organization. Further, creators can look to review content to pay for Hypebility with Hypwbility!
                     </p>
                 </div>
               </div>
