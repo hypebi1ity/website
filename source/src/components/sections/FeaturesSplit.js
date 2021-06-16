@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Increase the likelihood of viewer conversion',
-    paragraph: 'Regardless of a creator’s size most creators get a limited number of opportunities to convert a viewer before they just start ignoring your content or move on to the next creator. Creators that use Hypebility can make sure their content is optimized'
+    title: 'Increase viewer conversion',
+    paragraph: 'Viewers decide if they will continue watching your content in less than a minute. Hypebility’s reviewer feedback helps you figure out what you need to do to get viewers to stick around and follow your content'
   };
 
   return (
@@ -70,10 +70,10 @@ const FeaturesSplit = ({
                   Engaging
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Get more organic visibility and convert users off-platform
+                  Get organic visibility and convert users off-platform
                   </h3>
                 <p className="m-0">
-                  Your content is going to be viewed by an audience that is on your platform and views content in your category. If viewers like what they see they’ll have the ability to follow/subscribe through direct links!                </p>
+                  Hypebility makes sure that reviewers watch content on the same platform you create on and categories you create in. Reviewers can directly follow/subscribe if they like your content through integrated social links!                </p>
               </div>
               <div className={
                 classNames(
@@ -95,10 +95,10 @@ const FeaturesSplit = ({
                   Actionable
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Get data you can immediately leverage on upcoming content
+                  Get data you can leverage on upcoming content
                   </h3>
                 <p className="m-0">
-                  Whether you want to better understand the factors involved in a videos virality or underperformance or if you want to test content before uploading it, Hypebility gets you relevant data that you can immediately put to use on future uploads and streams.                  </p>
+                  Whether you are trying to understand why your content went viral, underperformed, did not getting the engagement you expected, or just want to test content before posting it – Hypebility Analytics empowers creators to make data-backed changes to their content!                  </p>
               </div>
               <div className={
                 classNames(
@@ -120,10 +120,10 @@ const FeaturesSplit = ({
                   Vetted
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Reviews are monitored for optimal quality
+                  Reviews are vetted and monitored ensuring optimal quality
                 </h3>
                 <p className="m-0">
-                  Our reviewer responses are vetted for authenticity and relevance. If the feedback is not actionable, too general, or just poor then it will not be included in your analysis.                 </p>
+                  All reviewer responses are vetted for authenticity and relevance. If the feedback is not in-depth or actionable then it is omitted from the dataset. Reviewers that have a high rating get more opportunities!                 </p>
               </div>
               <div className={
                 classNames(
