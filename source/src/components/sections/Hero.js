@@ -64,6 +64,7 @@ const Hero = ({
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               Make your content more <span className="text-color-primary">Engaging</span> and <span className="text-color-primary">Visible</span>
             </h1>
+            <br/>
             <div className="container-xs">
               <SocialIcon network="tiktok" fgColor="#fff" />
               <SocialIcon network="twitch" fgColor="#fff" />
@@ -72,6 +73,7 @@ const Hero = ({
               <SocialIcon network="facebook" fgColor="#fff" />
               <SocialIcon network="instagram" fgColor="#fff" />
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                <br/>
                 <br/>
                 Hypebility gives creators the opportunity to test their content in front of a highly targeted audience to get actionable data on overall viewer sentiment, content engagement and conversion likelihood.
               </p>
@@ -87,27 +89,27 @@ const Hero = ({
               {/*</div>*/}
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a>
-          </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
+          {/*<div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">*/}
+          {/*  <a*/}
+          {/*    data-video="https://player.vimeo.com/video/174002812"*/}
+          {/*    href="#0"*/}
+          {/*    aria-controls="video-modal"*/}
+          {/*    onClick={openModal}*/}
+          {/*  >*/}
+          {/*    <Image*/}
+          {/*      className="has-shadow"*/}
+          {/*      src={require('./../../assets/images/video-placeholder.jpg')}*/}
+          {/*      alt="Hero"*/}
+          {/*      width={896}*/}
+          {/*      height={504} />*/}
+          {/*  </a>*/}
+          {/*</div>*/}
+          {/*<Modal*/}
+          {/*  id="video-modal"*/}
+          {/*  show={videoModalActive}*/}
+          {/*  handleClose={closeModal}*/}
+          {/*  video="https://player.vimeo.com/video/174002812"*/}
+          {/*  videoTag="iframe" />*/}
         </div>
       </div>
     </section>
