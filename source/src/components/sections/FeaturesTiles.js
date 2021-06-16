@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-import Cta from '../../components/sections/Cta';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -56,9 +55,9 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <Cta split />
-          <SectionHeader data={sectionHeader} className="section-inner " />
+          <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
+
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
