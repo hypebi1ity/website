@@ -63,18 +63,18 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Make your content more <span className="text-color-primary">Engaging</span> and <span className="text-color-primary">Visible</span>
+              Make more <span className="text-color-primary">Engaging</span> and <span className="text-color-primary">Visible</span> content
             </h1>
             <div className="container-xs">
               <SocialIcon network="tiktok" fgColor="#fff" />
               <SocialIcon network="twitch" fgColor="#fff" />
               <SocialIcon network="youtube" fgColor="#fff" />
-              <SocialIcon network="twitter" fgColor="#fff" />
+              <SocialIcon network="snapchat" fgColor="#fff" />
               <SocialIcon network="facebook" fgColor="#fff" />
               <SocialIcon network="instagram" fgColor="#fff" />
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 <br/>
-                Hypebility gives creators the opportunity to test their content in front of a highly targeted audience to get actionable data on overall viewer sentiment, content engagement and conversion likelihood.
+                Creators get to test, adjust, and analyze their content with a targeted audience. Reviewers get paid for providing actionable and insightful feedback
               </p>
               {/*<div className="reveal-from-bottom" data-reveal-delay="600">*/}
               {/*  <ButtonGroup>*/}
